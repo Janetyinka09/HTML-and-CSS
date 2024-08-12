@@ -1,0 +1,95 @@
+body{
+    display: flex; 
+    justify-content: center;
+    /* background-color:  black; 
+    /* background-image;: linear-gradient(to top, #6411b3, white ); */
+    background: linear-gradient(to bottom, #6411b3  , white, white);
+    background-position: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    /* height: 100vh; */
+}
+.purple {
+    background-color: #6411b3;
+    width: 1000px;
+    height: 550px;
+    border-bottom-right-radius: 80px;
+    height: 800px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+.white {
+    background-color: white;
+    width: 1000px;
+    height: 550px ;
+    border-top-left-radius: 120px;
+    height: 800px;
+}
+.sign {
+    color: white;
+    border: 2px solid;
+    color: gray;
+    margin-top: 100px;
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 100px;
+    height: 500px;
+
+}
+form {
+    border-top: 2px solid;
+    border-top-color: rgb(184, 174, 174);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 10px;
+    display: block;
+    padding: 3px;
+}
+.si {
+    display: flex;
+}
+.purplecover {
+    color: #6411b3;
+    width: 500px;
+}
+/* .grad { */
+    /* background: linear-gradient(to bottom, #6411b3, white); */
+/* } */
+input {
+    margin: 20px;
+    width: 400px;
+    height: 30px;
+    justify-content: center;
+    margin-left: 50px; 
+}
+.login {
+    display: flex;
+    /* text-align: center; */
+    /* justify-content: center; */
+    justify-content: flex-start;
+}
+.all{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.signup {
+    margin-top: 10px;
+    border: none;
+    background-color: #6411b3;
+    color: white;
+    justify-content: center;
+    border-radius: 20px;
+}
+.align {
+    justify-content: space-between;
+}
+.rm {
+    justify-self: flex-start;
+}
+.help {
+    justify-content: flex-end;
+    text-align: end;
+    
+}
