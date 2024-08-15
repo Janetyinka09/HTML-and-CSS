@@ -1,0 +1,49 @@
+body {
+    background-image: url(port.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    /* display: block; */
+    /* justify-content: center; */
+    /* background-color: black; */
+}
+.lf {
+    background-color: blue;
+    text-align: center;
+    color: aliceblue;
+    border-bottom: 2px solid;
+    /* border-color: white; */
+    width: 400px;
+    height: 60px;
+    justify-self: center;
+}
+.white {
+    background-color: transparent;
+    /* border: 3px solid; */
+    border-color: blue;
+    box-shadow:2px rgb(104, 102, 102);
+    width: 400px;
+    height: 300px;
+}
+.dad {
+    /* justify-content: center; */
+    /* justify-self: center; */
+    /* text-align: center; */
+    
+}
+form {
+    margin: 1rem;
+    padding: 1rem;
+}
+input{
+    margin: 1rem;
+    width: 300px;
+}
+.login {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}

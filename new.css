@@ -1,0 +1,111 @@
+body {
+    /* background-color: black; */
+    background-image: url(port.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    /* height: 100vh;    */
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 0.5px solid white; */
+    width: 100%;
+    height: 8%;
+    background-color: rgb(107, 104, 104);
+}
+.logo {
+    margin-left: 2%;
+    /* border: 0.5px solid white; */
+    width: 10%;
+    height: 60%;
+    display: flex;
+}
+.words {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    /* border: 0.5px solid white; */
+    width: 45%;
+    height: 60%;
+    color: white;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    /* border: 0.5px solid rgb(202, 11, 11); */
+    width: 100%;
+    height: 90%;
+    background: transparent;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 0.5px solid rgb(66, 48, 231); */
+    margin-top: 100px;
+    width: 50%;
+    height: 60%;
+}
+.text{
+    /* border: 0.5px solid white; */
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 37px;
+    color: white;
+    
+
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* border: 0.5px solid white; */
+    margin-top: 55px;
+    width: 100%;
+    height: 20%;
+    justify-content: space-evenly;
+}
+input[type="submit"] {
+    margin-left: 10%;
+    width: 100%;
+    height: 50%;
+}
+.lm {
+    background: transparent;
+    color: white;
+    font-weight: 800;
+    border: 3px solid;
+    border-color: white;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px rgb(129, 127, 127);
+    cursor: pointer;
+    /* margin-left: 10px; */
+}
+.sub {
+    font-weight: 800;
+    border: 3px solid;
+    border-color: white;
+    border-radius: 8px;
+    color: black;
+    box-shadow: 3px 3px 3px rgb(129, 127, 127);
+    cursor: pointer;
+}
+/* .learn { */
+    /* margin-left: 80px; */
+/* } */
+.move {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 200px;
+}
+.too {
+    margin-right: 70px;
+    margin-top: 30px;
+    width: 200px;
+}
